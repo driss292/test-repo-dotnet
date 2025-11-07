@@ -1,0 +1,6 @@
+@test_repo_dotnet_HostAddress = http://localhost:5244
+
+GET {{test_repo_dotnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
